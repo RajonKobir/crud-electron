@@ -12,8 +12,13 @@ fileName = document.getElementById('fileName');
 fileContents = document.getElementById('fileContents');
 notification = document.getElementById('notification');
 
+
 // defining path
-let pathName = path.join(__dirname, 'Files');
+// let pathName = path.join(__dirname, 'Files');
+let pathName = path.join(require('os').homedir(), 'Desktop');
+
+// make the directory
+// fs.mkdir('pathName', () => {});
 
 
 // Create Operation

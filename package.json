@@ -4,7 +4,10 @@
   "description": "A Simple CRUD Operation in Electron",
   "main": "app.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "package-mac": "electron-packager .",
+    "package-win": "electron-packager .",
+    "package-linux": "electron-packager ."
   },
   "keywords": [
     "electron",
@@ -15,6 +18,16 @@
   "author": "Rajon Kobir",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^9.0.0"
-  }
+    "electron": "^9.0.0",
+    "electron-packager": "^14.2.1"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RajonKobir/crud-electron.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RajonKobir/crud-electron/issues"
+  },
+  "homepage": "https://github.com/RajonKobir/crud-electron#readme"
 }

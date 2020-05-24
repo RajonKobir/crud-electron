@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self';">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self';">
+    <meta http-equiv="Content-Security-Policy" content="style-src 'self';"> -->
+    <title>CRUD Electron</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="photon.min.css">
+
+</head>
+<body>
+    <div class="mainWrapper">
+        <h1>CRUD Operation</h1>
+
+<form action="">
+    <div class="form-group">
+        <label for="">File Name</label>
+        <input class="form-control" type="text" id="fileName">
+    </div>
+    <div class="form-group">
+        <label for="">Contents</label>
+        <textarea class="form-control" type="text" id="fileContents" rows="5"></textarea>
+    </div>
+</form>
+
+<button id="btnCreate" class="btn btn-default">Create</button>  
+<button id="btnRead" class="btn btn-default">Read</button>  
+<button id="btnUpdate" class="btn btn-default">Update</button>  
+<button id="btnDelete" class="btn btn-default">Delete</button> 
+
+<p id="notification">No Action Executed Yet!</p>
+
+    </div>
+
+    <script>
+        require('./index.js')
+     </script>
+
+</body>
+</html>

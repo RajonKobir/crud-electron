@@ -6,3 +6,5 @@ First, make sure you have node.js installed in your machine. Download this repos
 
 
 Run Command "npm run package-win" to create .exe file of the app, for Windows Operating System. This will automatically create a folder in the project directory in which you'll find the desired Executable File. Good Luck!
+
+Two folders are ignored to upload, don't need. check .gitignore file.
